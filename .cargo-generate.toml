@@ -1,0 +1,6 @@
+[template]
+
+# 这些文件包含 Tera/Handlebars-like 语法，但不应被 cargo-generate 处理
+exclude = [
+  "cliff.toml",
+]
