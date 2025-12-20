@@ -45,8 +45,9 @@ footer = """
 # remove the leading and trailing whitespace from the templates
 trim = true
 # postprocessors
+# replace需要修改为自己的仓库地址
 postprocessors = [
-    { pattern = '\$REPO', replace = "https://github.com/tyrchen/geektime-rust-live-coding" }, # replace repository URL
+    { pattern = '\$REPO', replace = "https://github.com/scau-coderlin/template" }, # replace repository URL
 ]
 
 [git]
